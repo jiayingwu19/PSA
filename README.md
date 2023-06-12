@@ -2,7 +2,7 @@
 
 This repo contains the data and code for the following paper: 
 
-Jiaying Wu, Bryan Hooi. Probing Spurious Correlations in Popular Event-Based Rumor Detection Benchmarks, European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) 2022.
+Jiaying Wu, Bryan Hooi. Probing Spurious Correlations in Popular Event-Based Rumor Detection Benchmarks, European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD) 2022. [![arXiv](https://img.shields.io/badge/arXiv-2209.08799-b31b1b.svg)](https://arxiv.org/abs/2209.08799)
 
 
 ## Datasets: Twitter15, Twitter16, PHEME-veracity
@@ -103,4 +103,18 @@ The experiment logs are saved under `logs/`, and the resulting models are saved 
 
 ## Citation
 
-TBC
+If you find this repo or our work useful for your research, please consider citing our paper
+
+```
+@inproceedings{wu2022probing,
+  author       = {Jiaying Wu and
+                  Bryan Hooi},
+  title        = {Probing Spurious Correlations in Popular Event-Based Rumor Detection Benchmarks},
+  booktitle    = {Machine Learning and Knowledge Discovery in Databases - European Conference,
+                  {ECML} {PKDD} 2022, Grenoble, France, September 19-23, 2022, Proceedings,
+                  Part {II}},
+  pages        = {274--290},
+  publisher    = {Springer},
+  year         = {2022}
+}
+```
